@@ -1,5 +1,7 @@
 SPOILER: Speculative Load Hazards Boost Rowhammer and Cache Attacks
+
 CVE-2019-0162
+
 INTEL-SA-00238
 
 Authors: 
@@ -54,7 +56,9 @@ month = aug,
 }
 
 Link to the paper:
+
 https://www.usenix.org/system/files/sec19-islam.pdf
 
 Link to the poster:
+
 https://www.researchgate.net/publication/339484716_SPOILER_Speculative_Load_Hazards_Boost_Rowhammer_and_Cache_Attacks
