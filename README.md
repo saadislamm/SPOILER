@@ -43,7 +43,7 @@ Install gnuplot if already not installed or plot t2.txt in any other software. p
 $ gnuplot
 gnuplot> plot 't2.txt' with lines
 ```
-If you see the peaks similar like in peaks_linux.png, your CPU is vulnerable to SPOILER. If not, you can try playing with the parameters "PAGE_COUNT, WINDOW and THRESH_OUTLIER". 
+If you see the peaks similar like in peaks_linux.png, your CPU is vulnerable to SPOILER. If not, you can try playing with the parameters "PAGE_COUNT, WINDOW and THRESH_OUTLIER". For an 11th Gen CPU for example, changing the WINDOW size to 256 worked. The reason can be that the store buffer size increases in higher generations. Please read the paper for details.
 
 ## Steps to run in WINDOWS:
 
